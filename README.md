@@ -26,3 +26,6 @@ Please make sure to update tests as appropriate.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
+# node-api-rest-jwt
+This is project is open for everyone who wants to use authentication
