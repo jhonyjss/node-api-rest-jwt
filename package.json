@@ -1,0 +1,39 @@
+{
+  "name": "nodeback",
+  "version": "1.0.0",
+  "description": "api for mobile",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon server/App.js",
+    "start": "cross-env NODE_ENV=production nodemon server/App.js",
+    "dev --debug": "cross-env NODE_ENV=development nodemon --inspect server/App.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhonyjss/nodeback.git"
+  },
+  "author": "Jhony Souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhonyjss/nodeback/issues"
+  },
+  "homepage": "https://github.com/jhonyjss/nodeback#readme",
+  "dependencies": {
+    "app-module-path": "^2.2.0",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mariadb": "^2.4.0",
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.4",
+    "sequelize": "^5.21.12"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^5.5.1"
+  }
+}
